@@ -9,7 +9,7 @@
     "hibernateCache": "hazelcast",
     "databaseType": "sql",
     "devDatabaseType": "h2Disk",
-    "prodDatabaseType": "mariadb",
+    "prodDatabaseType": "postgresql",
     "searchEngine": "elasticsearch",
     "buildTool": "maven",
     "jwtSecretKey": "5182673d204e4403eb4b1541a5f092de7ded3283",
@@ -24,6 +24,9 @@
     "nativeLanguage": "en",
     "languages": [
       "en"
-    ]
+    ],
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "enableSocialSignIn": false
   }
 }
